@@ -257,13 +257,8 @@ def main(page):
     page.scroll = True
     show_comptes(page)
 
-# Configuration WSGI
-#pr anywhere
-def application(environ, start_response):
-    return ft.wsgi(target=main)(environ, start_response)
 
 
-"""
-pr runer localemet l'app
- if __name__=="__main__":
-    ft.app(target=main, view=ft.WEB_BROWSER) """
+
+if __name__=="__main__":
+    ft.app(target=main, view=ft.WEB_BROWSER)
