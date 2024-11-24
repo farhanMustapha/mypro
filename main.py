@@ -262,6 +262,7 @@ def main(page):
 def application(environ, start_response):
     return ft.wsgi(target=main)(environ, start_response)
 
+
 """
 pr runer localemet l'app
  if __name__=="__main__":
