@@ -1,3 +1,2 @@
 flet
 python 3.12.4
-streamlit
