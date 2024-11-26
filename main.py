@@ -1,6 +1,9 @@
 import flet as ft
 import json
 
+
+
+
 # Charger le fichier JSON des exemples
 def load_json():
     with open('exemples.json', encoding='utf-8') as f:
@@ -238,9 +241,12 @@ def show_exemples(page, compte):
         else:
             page.controls.clear()
             page.add(ft.Text("Fin des exercices"))
+            page.add(ft.ElevatedButton("Retour à l'accueil", bgcolor=ft.colors.BLUE, color=ft.colors.WHITE, on_click=lambda e: show_comptes(page)))
             page.update()
 
     create_question(examples[current_index])
+
+    
 
 
 
@@ -251,7 +257,7 @@ def show_exemples(page, compte):
 # Fonction principale (Page d'accueil)
 def main(page):
     page.title = "Comptabilité - Plan Comptable"
-    #page.window.width = 450
+    page.window.width = 450
     page.window.height = 700
     page.window.left = 800
     page.scroll = True

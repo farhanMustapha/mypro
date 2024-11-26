@@ -2315,7 +2315,8 @@
     {
         "numero": "6114",
         "titre": "Variation de stocks de marchandises",
-        "explication": "Ce compte est debité au début de l'exercice par le crédit du compte de stock initial et crédité du montant des stocks à la date de clôture de l'exercice. Le solde de ce compte représente la variation globale de la valeur du stock entre le début et la fin de l'exercice, c'est-à-dire, la différence entre le stock initial et le stock final. Ce compte peut être debiteur ou créditeur et figure dans le ‘compte de produits et charges' comme compte correcteur, en plus ou en moins des achats de l'exercice."
+        "explication": "Ce compte est debité au début de l'exercice par le crédit du compte de stock initial et crédité du montant des stocks à la date de clôture de l'exercice. Le solde de ce compte représente la variation globale de la valeur du stock entre le début et la fin de l'exercice, c'est-à-dire, la différence entre le stock initial et le stock final. Ce compte peut être debiteur ou créditeur et figure dans le ‘compte de produits et charges' comme compte correcteur, en plus ou en moins des achats de l'exercice.",
+        "exemples":[]
     },
     {
         "numero": "6118",

@@ -1,2 +1,2 @@
-flet
+flet==0.23.2.dev3526
 python 3.12.4
